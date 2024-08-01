@@ -74,21 +74,21 @@ section .content {
 }
 
 .home {
-    background-image: url('image/cafe.jpg');
+    background-image: url('images/cafe.jpg');
 }
 
 .about {
-    background-image: url('image/bg4.jpg');
+    background-image: url('images/bg4.jpg');
 }
 
 .menu {
-    background-image: url('image/coffee.jpg');
+    background-image: url('images/coffee.jpg');
 }
 
 .gallery {
-    background-image: url('image/bg3.jpg');
+    background-image: url('images/bg3.jpg');
 }
 
 .contact {
-    background-image: url('image/bg2.jpg');
+    background-image: url('images/bg2.jpg');
 }
