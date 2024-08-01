@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px; 
+    min-height: 400px; 
+}
+
+
+
+
+
+.menu {
+    background-image: url('images/cafe.jpg'); /* Relative path to your local image */
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery {
+    background-image: url('images/cafe.jpg'); /* Relative path to your local image */
+    background-size: cover;
+    background-position: center;
+}
+
+.contact {
+    background-image: url('images/cafe.jpg'); /* Relative path to your local image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Content Styling */
+.content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Stopwatch Styling */
+.stopwatch {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px; /* Add spacing to improve readability */
+}
+
+/* Optionally, if you want to format the milliseconds part differently */
+.display span.milliseconds {
+    font-size: 0.75em;
+    vertical-align: super;
+}
+
+.buttons button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startStopBtn {
+    background: #28a745;
+    color: white;
+}
+
+#resetBtn {
+    background: #dc3545;
+    color: white;
+}
+
+#lapBtn {
+    background: #007bff;
+    color: white;
+}
+
+.laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.laps li {
+    font-size: 18px;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
