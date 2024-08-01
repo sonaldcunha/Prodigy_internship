@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 60px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700; 
+}
+
+nav a {
+    font-size: 18px;
+    color: #ccc;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    color: #ffba00; 
+}
+
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px; 
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+section .content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+}
+
+.home {
+    background-image: url('image/cafe.jpg');
+}
+
+.about {
+    background-image: url('image/bg4.jpg');
+}
+
+.menu {
+    background-image: url('image/coffee.jpg');
+}
+
+.gallery {
+    background-image: url('image/bg3.jpg');
+}
+
+.contact {
+    background-image: url('image/bg2.jpg');
+}
