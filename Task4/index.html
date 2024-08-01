@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="intro">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a Web Developer passionate about creating beautiful and functional websites.</p>
+            <img src="image/bg4.jpg" alt="Profile Photo">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Sonal Dcunha. Iam curently pursuing my Masters in Computer Applications from NMAMIT Nitte.I love to work on projects and passionate about learning new technologies.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>Python</li>
+            <li>Java</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>MEDlogs</h3>
+            <p>
+                It is a centralized platform for storing and managing medical records and provides a graphical respresentation of individuals health analysis.It provides hospitals a opporutiny to advertise themselves about their campaims and offers.
+              </p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Hostel Seat booking System</h3>
+            <p>it is a website which helps the users to book college hostel rooms, which has detailed information regarding hostel rooms and their availability.</p>
+            <a href="#">View Project</a>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sonal All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
