@@ -3,3 +3,5 @@ Task 1: Navigation Bar
 Task 2: Stopwatch
 Task 3: Tic tac
 Task 4: Portfolio
+
+Added circleci setup to this branch
